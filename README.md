@@ -1,2 +1,1 @@
-# pythonWithDjango
-python/Django learning 
+# python language
