@@ -66,8 +66,18 @@ my_car = Car("toyota", "innova")
 # print(isinstance(my_tesla, Car))
 # print(isinstance(my_tesla, Electric))
 
+# inheritance
 class Battary:
-    pass
+    def battery_info(self):
+        return "battery"
 
 class Engine:
+    def engine_info(self):
+        return "engine"
+
+class ElectricCarTwo(Car, Battary, Engine):
     pass
+
+new_tesla = ElectricCarTwo("tesla", "model s")
+print(new_tesla.engine_info())
+print(new_tesla.battery_info())
