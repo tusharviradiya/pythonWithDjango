@@ -6,10 +6,13 @@ def index(request):
     # return HttpResponse("Hello, world. You're at the home index.")
 
 def about(request):
-    return HttpResponse("Hello, world. You're at the home about.")
+    return render(request, "about.html")
+    # return HttpResponse("Hello, world. You're at the home about.")
 
 def services(request):
-    return HttpResponse("Hello, world. You're at the home services.")
+    return render(request, "services.html")
+    # return HttpResponse("Hello, world. You're at the home services.")
 
 def contact(request):
-    return HttpResponse("Hello, world. You're at the home contact.")
+    return render(request, "contact.html")
+    # return HttpResponse("Hello, world. You're at the home contact.")
