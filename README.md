@@ -41,3 +41,25 @@ easy to modify
 - MVT
 - PIP
 - bootstrap
+
+## how to install
+1. install vitual environment
+- virtualenv install
+- create env and run source env/bin/activate
+- install django
+- pip install django
+
+## structure of django project 
+- root directory means : manage.py file is present in which directory this called root directory
+- __init__.py : this file consider as python package.
+- wsgi.py(web server gatway interface) : this file consider as web server and spacifiy how web server communicate with web application
+- asgi.py : this is upgrade of wsgi.py this provides asynchronous web server and syncronus web server
+- settings.py : this file contain all setting for django project
+- settings.py : this file contain all setting for django project, database config information, template, install application and validator
+- urls.py : this file contain all url for django project
+- manage.py : this file contain all command for django project
+
+## setting file in django
+- DEBUG = True for detail information about problem
+- build in application in django
+- DATABASES this is for django database connection
