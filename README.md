@@ -113,3 +113,8 @@ easy to modify
 #### include() function
 - urlpattern can include other module
 - syntext : include(module, namespace=None, app_name=None) or include(pattern_list) or include((pettern_list, app_namespace), namespace = None)
+
+## url pattern in application 
+- first make urls.py file in application 
+- after that we need to write url pattern in that file 
+- after that we need to inclue in project urls.py file
