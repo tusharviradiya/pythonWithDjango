@@ -63,3 +63,11 @@ easy to modify
 - DEBUG = True for detail information about problem
 - build in application in django
 - DATABASES this is for django database connection
+
+## how to create application in python
+- go to project file 
+- run command - python manage.py startapp application_name
+- go to project file
+- run command - python manage.py runserver
+- go to project file
+- run command - python manage.py migrate
