@@ -113,4 +113,3 @@ easy to modify
 #### include() function
 - urlpattern can include other module
 - syntext : include(module, namespace=None, app_name=None) or include(pattern_list) or include((pettern_list, app_namespace), namespace = None)
-- 
