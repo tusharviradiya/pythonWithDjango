@@ -71,3 +71,46 @@ easy to modify
 - run command - python manage.py runserver
 - go to project file
 - run command - python manage.py migrate
+- go to setting file and add application name in INSTALLED_APPS
+
+## application directory structrure in django
+- **migrations** : this directory contain all migration
+- **__init__.py** : this file consider as python package
+- **models.py** : this file contain all model
+- **views.py** : this file contain all view
+- **templates** : this directory contain all template
+- **static** : this directory contain all static files
+- **admin.py** : this file contain all admin panel
+- **test.py** : this file contain all test
+
+# view
+
+## create funciton based view in django
+- go to project file
+- open view file of appication
+- write your all business logic in this file 
+
+## singal application with mutliple view funciton
+- go to project file
+- open view file of appication
+- write your all business logic in this file
+- and set url in urls.py file
+
+## URL dispatcher
+- mapping between url path expression and view functions
+- it can referes other mapping
+
+#### path()
+- path(route, view, kwargs=None, name=None)
+- route should be string
+- view should be function
+- kwargs is dictionary
+- name is string
+
+#### multiple application inside project
+- add application in install section and add application name in INSTALLED_APPS
+
+#### include() function
+- urlpattern can include other module
+- syntext : include(module, namespace=None, app_name=None) or include(pattern_list) or include((pettern_list, app_namespace), namespace = None)
+- 
