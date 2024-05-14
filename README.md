@@ -118,3 +118,14 @@ easy to modify
 - first make urls.py file in application 
 - after that we need to write url pattern in that file 
 - after that we need to inclue in project urls.py file
+
+# Template
+- html code where we write in view.py file or there is someting we need to write in template file
+
+## how to write template file in project
+- first we need to create template file and create one file in that folder
+- after that we need to write render function in view file 
+- render() : combine template and data and return an HttpResponse object with that render text
+    syntext : render(request, template_name, context=dict_name, content_type=MIME_type, status=None, using=None)
+
+## create folder in template folder for better understanding
