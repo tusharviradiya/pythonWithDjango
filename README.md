@@ -64,6 +64,9 @@ easy to modify
 - build in application in django
 - DATABASES this is for django database connection
 
+## how to create project in django
+- run this cammand : django-admin startproject myproject
+
 ## how to create application in python
 - go to project file 
 - run command - python manage.py startapp application_name
