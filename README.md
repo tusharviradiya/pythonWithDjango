@@ -129,3 +129,4 @@ easy to modify
     syntext : render(request, template_name, context=dict_name, content_type=MIME_type, status=None, using=None)
 
 ## create folder in template folder for better understanding
+- in this we need to give path in perticuler application view.py file

@@ -3,4 +3,4 @@ from django.http import HttpResponse
 
 # Create your views here.
 def hello_fun(requrest):
-    return render(requrest, "first_template.html")
+    return render(requrest, "first/first_template.html")
