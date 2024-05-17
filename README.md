@@ -133,3 +133,14 @@ easy to modify
 
 ## create folder in template folder for better understanding
 - in this we need to give path in perticuler application view.py file
+
+## dynamic tempalte file using DTL
+- varialbe : {{variable}}
+- in view file we write one dictionory and key is in our template file called
+- filter : {{variable|filter_name}} for example : {{name|upper}}
+- dot lookup : {{variable.name}} for example : {{name.first}}
+
+## Template inside project
+- when we install telmplate in app so we need to APP_DIRS = ture in settings.py
+- when we make template normal so we need to focus on TEMLATES_DIRS
+- when we make hybrid so we need to inpliment both
