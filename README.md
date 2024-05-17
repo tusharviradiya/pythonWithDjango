@@ -144,3 +144,18 @@ easy to modify
 - when we install telmplate in app so we need to APP_DIRS = ture in settings.py
 - when we make template normal so we need to focus on TEMLATES_DIRS
 - when we make hybrid so we need to inpliment both
+
+## static file
+- in static file we need to write path
+- {% load static %}
+- {% static 'css/style.css' %}
+- {% link %}
+
+## static file in root directory
+- we need to add STATIC_URL = '/static/' in settings.py
+- and STATICFILES_DIRS = [os.path.join(BASE_DIR, 'static')] also 
+
+## static file in application
+- we need to add STATIC_URL = '/static/' in settings.py
+- and STATICFILES_DIRS = [os.path.join(BASE_DIR, 'static')] also   
+- we also need to create static folder in application with one file and all file in this 
