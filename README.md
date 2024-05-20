@@ -159,3 +159,33 @@ easy to modify
 - we need to add STATIC_URL = '/static/' in settings.py
 - and STATICFILES_DIRS = [os.path.join(BASE_DIR, 'static')] also   
 - we also need to create static folder in application with one file and all file in this 
+
+## template inheritance
+- we can inherit template from another template
+
+## extends tag
+- {% extends './base.html' %}
+- it has no end tag
+
+## block teg
+- overriding spacific part of template
+- {% block blockname %}......{% endblock blockname%}
+- we need to add blockname in template file at first place
+- when we need perent tempate content or we also add some content so we add this tag {% block.super %}
+
+## template inheritance with static file 
+- we need to add static lode on file and after that we use static on our project
+
+## bootstrap implimentation
+- we download bootstrap complile css and js
+- after that we copy jsdiliver js file and put it in bootstrap folder
+
+## hyperlink tag
+- url tag : {% url 'url_name' %}, {% url 'url_name' as var%}
+- example : <a href="{% url 'url_name' %}">click here</a>
+
+## include tag in django
+- using this we use multiple time our template
+- {% include 'template_name' %}
+- {% include 'template_name' with context only %} : in this context only go ahead
+- 
