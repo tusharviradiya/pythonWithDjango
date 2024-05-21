@@ -203,4 +203,20 @@ easy to modify
 
 ## model class
 - one class is create table in database
-- 
+
+## makemigrations
+- propagating change to database
+- in simple words makemigrations is convert classes into sql statement
+
+## migrate
+- execute sql statements
+
+## sqlmigrate
+- display sql statements for migrations
+
+## showmigrations
+- list migrations and status
+- which migrations is panding is shown here
+
+## all() 
+- it return a copy of current QuerySet or subclass
