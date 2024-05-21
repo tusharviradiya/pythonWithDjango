@@ -188,4 +188,19 @@ easy to modify
 - using this we use multiple time our template
 - {% include 'template_name' %}
 - {% include 'template_name' with context only %} : in this context only go ahead
+
+## Cookies in django
+- means some date which user need everytime
+
+## ORM (object relational mapper)
+- give feature to connect any database in django
+
+## QuerySet 
+- list of all object which we created using django model
+- allow to user to read, filter and order data from database
+
+# Model
+
+## model class
+- one class is create table in database
 - 
