@@ -220,3 +220,12 @@ easy to modify
 
 ## all() 
 - it return a copy of current QuerySet or subclass
+
+## admin application
+- built-in application 
+- it provide admin panel for django
+- crud operations without writing sql statements
+- for this admin pannel makemigrations are already done we need only migrate
+
+## create super user
+- command : python3 manage.py createsuperuser
