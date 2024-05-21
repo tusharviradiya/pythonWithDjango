@@ -229,3 +229,15 @@ easy to modify
 
 ## create super user
 - command : python3 manage.py createsuperuser
+
+## register table to admin panel
+- open application
+- opne admin file
+- import class in admin file 
+- after that admin.site.register(student)
+
+## __str__ method
+- it return string representation of object
+- by default it return object name and primary key
+- why : because when we create any entry so it will return object only at this time we confused about which date is for which object
+- we write this in models.py file
