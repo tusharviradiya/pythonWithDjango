@@ -264,3 +264,23 @@ easy to modify
 - auto_id=False : no id and lable name show in html code
 - auto_id=Ture : id and lable name show in html code
 - Label_suffix : it add space after label
+
+## ordering form filled
+-  fm.order_fields(field_order=['email', 'name']) like this we order our table filds
+
+## loop form 
+- {% for field in form %}
+    {{field.label_tag}}
+  {% endfor %}
+
+## hidden labels 
+- weight = label.hidden
+- in for loop we write visible_fields()
+
+## get post in form
+- in form in method we write get and post 
+- post give CSRF protection
+- what is CSRF(cross site request forgery) : 
+
+## HttpPresponseRedirect
+- 
