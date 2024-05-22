@@ -243,3 +243,24 @@ easy to modify
 - we write this in models.py file
 
 ## django form
+- also called form api 
+- bound means form is already filled
+- unbound means form is not filled
+- form not include form and submit button
+
+## display form to user
+- create form.py file and create class for form
+- create views.py function and link urls.py file 
+- also in project urls file add urls
+- make html file for form because there are no form attribute and submit button
+
+## form rendering options
+- {{from}}
+- {{from.as_table}}
+- {{from.as_p}}
+- {{from.as_ul}}
+
+## configure id attrubute
+- auto_id=False : no id and lable name show in html code
+- auto_id=Ture : id and lable name show in html code
+- Label_suffix : it add space after label
