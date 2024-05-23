@@ -323,3 +323,17 @@ easy to modify
 - deserializer used to convert python datatype to complax data
 - python datatype like list or dictionary
 - this process called deserialization
+
+# serializer
+
+### serializer class
+- serializer class is very similar to modelform class and django form
+
+- in this process we convert complax data to python native datatype and after that render into json data
+
+## jsonRenderer 
+- this is used to serialized data into  json data which is understandable by front end
+
+## jsonResponse()
+- syntex : jsonResponse(data, encoder=None, safe=True, json_dumps_params=None, **kwargs)
+- first para : dictionary and if you set self para false so you work any json form
