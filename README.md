@@ -282,5 +282,44 @@ easy to modify
 - post give CSRF protection
 - what is CSRF(cross site request forgery) : 
 
-## HttpPresponseRedirect
-- 
+
+# API part
+
+## what is API
+- which stands for Application Programming Interface, acts as a middleman between different software programs. 
+- It's a set of rules that defines how applications communicate with each other to exchange data or functionality.
+
+## what is web API ?
+- in this web api we need to register first after that we achive one api key for authentication perpose
+- using this api key we use that api in out application
+
+## rest api
+- it is architectural guideline for building web api
+- rest api and restful api are both same only name are differance
+
+## CRUD operations
+- create : post
+- read : get
+- update : put, patch
+- delete : delete
+
+## django REST framework
+- toolkit for building web api
+
+## installation of Django REST framework()
+- pip install djangorestframework
+- after that we install django rest framework in our setting file like "rest_framework"
+
+## python json
+- if we convert python code into json using json.dumps() method
+- if json to python we use loads() method
+
+## serializer and serialization
+- serializer used to convert complax data to python datatype
+- complax data like queryset or model instance
+- this process called serialization
+
+## deserializer and deserialization
+- deserializer used to convert python datatype to complax data
+- python datatype like list or dictionary
+- this process called deserialization
