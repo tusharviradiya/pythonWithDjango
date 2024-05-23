@@ -337,3 +337,35 @@ easy to modify
 ## jsonResponse()
 - syntex : jsonResponse(data, encoder=None, safe=True, json_dumps_params=None, **kwargs)
 - first para : dictionary and if you set self para false so you work any json form
+
+## jsonResponse()
+- when we use jsonResponse() so we must pass dicitonary data in it otherwise it will not work
+
+## serializer field
+- converting between primitive value and internal datatypes
+- serializer.CharField() so here charfield is serializer field
+
+list of serializer field
+- serializer.IntegerField()
+- serializer.BooleanField()
+- serializer.ChoiceField()
+- serializer.FloatField()
+- serializer.EmailField()
+- serializer.URLField()
+- serializer.DateTimeField()
+- serializer.JSONField()
+- serializer.FileField()
+- serializer.ImageField()
+- serializer.UUIDField()
+- serializer.FileField()
+
+## Core Arguments
+- label
+- validators
+- error_messages
+- help_text
+- required
+- initial
+- style
+- read_only
+- write_only
