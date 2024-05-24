@@ -406,3 +406,17 @@ class UserSerializer(ModelSerializer):
         read_only_fields = ['name', 'roll']
         extra_kwargs = {'city': {'read_only': True}}
 ```
+
+## function based api view in django rest framework
+
+api_view()
+- provide a few bits of functionality such as making a request object available to the view.
+
+Request
+- provide flexible request parsing that allows you to treat requests with json data or other media types in the same way that you would normally deal with form data.
+- request.data : get the data in json format
+- request.method : get the HTTP method
+- request.query_params : get the query parameters
+
+Response()
+- syntex : Response(data, status=None, headers=None, template_name=None, content_type=None, json_dumps_params=None, **kwargs)
