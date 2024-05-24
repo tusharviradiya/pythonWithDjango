@@ -369,3 +369,15 @@ list of serializer field
 - style
 - read_only
 - write_only
+
+## BytesIO
+- the buffer is discarded when the close() method is called
+- stream = io.BytesIO(json_data)
+
+## JSONParser
+- json to python native data type converter
+
+- steps for de-serialization
+create serializer object
+serializer.is_valid()
+serializer.validated_data
