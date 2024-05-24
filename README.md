@@ -381,3 +381,7 @@ list of serializer field
 create serializer object
 serializer.is_valid()
 serializer.validated_data
+
+# CRUD operations in django REST Framwork
+- what is the steps for write CRUD
+1. 
