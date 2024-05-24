@@ -384,4 +384,25 @@ serializer.validated_data
 
 # CRUD operations in django REST Framwork
 - what is the steps for write CRUD
-1. 
+
+## validators
+1. field level validation
+2. object level validation
+3. validator
+check project 3
+
+## ModelSerializer class
+- this is like serializer but this is automaticaly create set of fields for you based on your model
+- it includes simple default implementation of create() and update().
+
+## validator in modelserializer class
+- when we need do some validator work
+```py
+class UserSerializer(ModelSerializer):
+        username = serializers.CharField(read_only=True)
+    class Meta:
+        model = User
+        fields = ['username', 'email', 'password']
+        read_only_fields = ['name', 'roll']
+        extra_kwargs = {'city': {'read_only': True}}
+```
