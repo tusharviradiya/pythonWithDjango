@@ -18,7 +18,7 @@ def get_data(id = None):
         print(data)
     except json.JSONDecodeError:
         print("Response is not in JSON format")
-get_data()
+# get_data(2)
 
 # post method
 def post_data():
