@@ -420,3 +420,18 @@ Request
 
 Response()
 - syntex : Response(data, status=None, headers=None, template_name=None, content_type=None, json_dumps_params=None, **kwargs)
+
+## class based api view in django rest framework
+
+## Generic API View
+- this class extends rest framework's API View class, adding commonly required behaviors for standard list and detail views.
+
+## Mixins
+- ListModelMixin
+- CreateModelMixin
+- RetrieveModelMixin
+- UpdateModelMixin
+- DestroyModelMixin
+
+## concrete view class in django rest framework
+- 
