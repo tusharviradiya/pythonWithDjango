@@ -441,4 +441,23 @@ Response()
 - DRF allows you to combine the logic for a set of related views in a single class, called a viewset.
 
 ## ViewSet class
-- 
+
+## modelviewset class
+
+## Authentication, Authorization and Permissions in project9
+
+- in DRF we have 
+basic authentication
+token authentication
+session authentication
+remote user authentication
+custom authentication
+
+- permission classes
+1. AllowAny
+2. IsAuthenticated
+3. IsAdminUser
+4. IsAuthenticatedOrReadOnly
+5. DjangoModelPermissions
+6. DjangoModelPermissionsOrAnonReadOnly
+7. DjangoObjectPermissions
