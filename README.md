@@ -434,4 +434,11 @@ Response()
 - DestroyModelMixin
 
 ## concrete view class in django rest framework
+- already implemented in rest framework
+- we import from rest_framework.generics\
+
+## ViewSet
+- DRF allows you to combine the logic for a set of related views in a single class, called a viewset.
+
+## ViewSet class
 - 
