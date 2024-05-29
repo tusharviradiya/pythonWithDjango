@@ -463,3 +463,9 @@ custom authentication
 7. DjangoObjectPermissions
 
 ## Custom Permissions
+
+## Token Authentication
+
+## what is httpie
+- goal is to make CLI interaction with web services
+- pip install httpie
