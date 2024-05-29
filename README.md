@@ -461,3 +461,5 @@ custom authentication
 5. DjangoModelPermissions
 6. DjangoModelPermissionsOrAnonReadOnly
 7. DjangoObjectPermissions
+
+## Custom Permissions
