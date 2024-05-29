@@ -469,3 +469,11 @@ custom authentication
 ## what is httpie
 - goal is to make CLI interaction with web services
 - pip install httpie
+
+## custom authentication
+
+## JSON web token authentication
+- simpleJWT
+
+## Throttling
+- 
