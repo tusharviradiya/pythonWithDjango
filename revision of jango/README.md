@@ -45,3 +45,5 @@ STATICFILES_DIRS = [
 link href="{% static 'css/style.css' %}"
 ```
 
+### jinja2
+- 
